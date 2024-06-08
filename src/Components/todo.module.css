@@ -1,0 +1,102 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(67, 63, 63);
+    padding: 18px;
+    width:60%;
+}
+@media (width <= 1250px) {
+   .inputField{
+    display: flex;
+    flex-direction: column;
+   }
+  }
+
+.inputField{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+}
+.inputFill{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.add{
+    cursor: pointer;
+    padding:12px 24px;
+    border: none;
+    border-radius: 8px;
+    background-color: green;
+    margin-top:22px;
+    color: white;
+    font-weight: bold;
+    font-size:18px;
+}
+.inputFill input{
+    padding:12px;
+    width: 260px;
+}
+.hr{
+    width:100%;
+    margin-top:30px;
+}
+.hr1{
+    width:20%;
+    margin-top: -14px;
+}
+.listTable{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width:90%;
+    margin:0 auto;
+    gap: 20px;
+    
+    h4{
+        width:150px;
+    }
+    p{
+        width: calc(100% - 150px - 50px);
+    }
+    .btn{
+        display: flex;
+        gap: 16px;
+        width: 56px;
+    }
+
+}
+.line{
+    text-decoration: line-through;
+    color: rgb(137, 126, 126);
+}
+.ok{
+    text-decoration: none;
+}
+.DoneTitle{
+    color: rgb(137, 126, 126);
+}
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    input{
+        width: 300px;
+        padding: 5px;
+        padding-left:8px;
+        border: none;
+
+    }
+    .sicon{
+        position: absolute;
+        color: rgb(137, 126, 126);
+        right: 617px;
+    }
+  
+}
+.addtodo{
+    margin-top:20px;
+}
